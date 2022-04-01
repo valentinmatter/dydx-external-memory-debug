@@ -1,0 +1,15 @@
+{
+  "name": "dydx-mem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@dydxprotocol/v3-client": "^1.8.2",
+    "@types/ref-napi": "^3.0.4",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "yarn build && node dist/index.js"
+  }
+}
